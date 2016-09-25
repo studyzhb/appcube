@@ -1,81 +1,581 @@
-/*
-Error: Invalid CSS after "...        height:": expected expression (e.g. 1px, bold), was "}"
-        on line 304 of sass/index.scss
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
 
-299:                         -webkit-box-orient:horizontal;
-300:                         li{
-301:                            margin-left:10px;
-302:                            width:20%;
-303:                            height:
-304:                         }
-305:                     }
-306:                     ul.mainul{
-307:                         display: block;
-308:                         height: 352px;
-309:                     }
+body {
+  line-height: 1;
+  font: 100%/120% "microsoft yahei",Verdana, Arial, Helvetica, sans-serif; }
 
-Backtrace:
-sass/index.scss:304
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/script/lexer.rb:229:in `expected!'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/script/parser.rb:704:in `assert_expr'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/script/parser.rb:75:in `parse'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1051:in `sass_script'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:897:in `value!'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:769:in `block in try_declaration'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1165:in `call'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1165:in `rethrow'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:782:in `try_declaration'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:726:in `declaration_or_ruleset'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:676:in `block_child'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:657:in `block'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-d:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...        height:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 304 of sass/index.scss\A \A 299:                         -webkit-box-orient:horizontal;\A 300:                         li{\A 301:                            margin-left:10px;\A 302:                            width:20%;\A 303:                            height:\A 304:                         }\A 305:                     }\A 306:                     ul.mainul{\A 307:                         display: block;\A 308:                         height: 352px;\A 309:                     }"; }
+:focus {
+  outline: 0; }
+
+h1 {
+  font-size: 300%; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input, textarea {
+  margin: 0;
+  padding: 0; }
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #000;
+  background-color: #000;
+  height: 1px; }
+
+.clear:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+body {
+  padding-top: 50px;
+  line-height: 1.5;
+  letter-spacing: 0; }
+
+h2 {
+  font-size: 225%; }
+
+.appscontent {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  z-index: 1; }
+
+header {
+  width: 100%;
+  background: #15A6ED;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  overflow: hidden; }
+  header .menu {
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+    display: none;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical; }
+    header .menu span {
+      display: inline-block;
+      height: 2px;
+      background: #fff;
+      width: 100%;
+      margin: 2px;
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1; }
+  header h1 {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    height: 100%;
+    position: relative; }
+    header h1 img {
+      position: absolute;
+      transform: scale(0.1, 0.1);
+      left: -210px;
+      top: -217px; }
+  header ul {
+    -webkit-box-flex: 3;
+    -moz-box-flex: 3;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal; }
+    header ul li {
+      height: 100%;
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      margin: 5px;
+      padding: 0 5px;
+      color: #fff;
+      font-size: 16px;
+      line-height: 40px;
+      text-align: center;
+      height: 40px; }
+    header ul li:hover {
+      background: rgba(0, 0, 0, 0.5); }
+
+.banner {
+  position: relative;
+  padding-top: 50px;
+  background: url(../img/Back.jpg);
+  background-size: cover;
+  min-height: 700px;
+  width: 100%;
+  text-align: center; }
+  .banner p {
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.3);
+    color: white !important;
+    letter-spacing: 2px; }
+  .banner h1 {
+    margin: 50px 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    color: white !important; }
+  .banner .hexagon {
+    position: absolute;
+    bottom: -72px;
+    left: 50%;
+    width: 80px;
+    height: 92px;
+    margin-left: -40px; }
+    .banner .hexagon .outer {
+      position: relative;
+      float: left;
+      width: 80px;
+      height: 46px;
+      background: #ffffff; }
+      .banner .hexagon .outer:before {
+        border: 1px solid #ffffff;
+        border-bottom-width: 23px;
+        border-top-width: 23px;
+        border-left-width: 40px;
+        border-right-width: 40px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-color: transparent transparent #ffffff transparent;
+        float: left;
+        margin-top: -46px;
+        position: relative; }
+      .banner .hexagon .outer:after {
+        border: 1px solid #ffffff;
+        border-bottom-width: 23px;
+        border-top-width: 23px;
+        border-left-width: 40px;
+        border-right-width: 40px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-color: #ffffff transparent transparent transparent;
+        float: left;
+        margin-top: 46px;
+        position: relative; }
+    .banner .hexagon .inner {
+      position: relative;
+      float: left;
+      width: 68px;
+      height: 40px;
+      background-color: #00a99d;
+      background-color: #15a6ed;
+      margin-top: -43px;
+      margin-left: 6px; }
+      .banner .hexagon .inner:before {
+        border: 1px solid #ffffff;
+        border-bottom-width: 20px;
+        border-top-width: 20px;
+        border-left-width: 34px;
+        border-right-width: 34px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-color: transparent transparent #00a99d transparent;
+        border-color: transparent transparent #15a6ed transparent;
+        float: left;
+        margin-top: -40px;
+        position: relative; }
+      .banner .hexagon .inner:after {
+        border: 1px solid #ffffff;
+        border-bottom-width: 20px;
+        border-top-width: 20px;
+        border-left-width: 34px;
+        border-right-width: 34px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-color: #00a99d transparent transparent transparent;
+        border-color: #15a6ed transparent transparent transparent;
+        float: left;
+        margin-top: 40px;
+        position: relative; }
+
+.skillsblock {
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8; }
+  .skillsblock .block-container {
+    text-align: center; }
+    .skillsblock .block-container .skillcontainer:hover .logocontainer {
+      transform: rotate(360deg);
+      border-color: #afafaf; }
+      .skillsblock .block-container .skillcontainer:hover .logocontainer i {
+        color: #15a6ed; }
+    .skillsblock .block-container .skillcontainer {
+      width: 33%;
+      min-width: 250px;
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+      margin: 0 30px; }
+      .skillsblock .block-container .skillcontainer .wrapper {
+        display: inline-block;
+        padding: 40px; }
+        .skillsblock .block-container .skillcontainer .wrapper .skillogo {
+          text-align: center; }
+          .skillsblock .block-container .skillcontainer .wrapper .skillogo .logocontainer {
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            color: #afafaf;
+            vertical-align: middle;
+            width: 130px;
+            height: 130px;
+            font-size: 50px;
+            border: 4px solid #afafaf;
+            border-color: #15a6ed;
+            border-radius: 50%;
+            zoom: 1;
+            -webkit-transition: transform 0.5s cubic-bezier(0.43, 0.6, 0.58, 1.62);
+            -moz-transition: transform 0.5s cubic-bezier(0.43, 0.6, 0.58, 1.62);
+            -ms-transition: transform 0.5s cubic-bezier(0.43, 0.6, 0.58, 1.62);
+            -o-transition: transform 0.5s cubic-bezier(0.43, 0.6, 0.58, 1.62);
+            transition: transform 0.5s cubic-bezier(0.43, 0.6, 0.58, 1.62);
+            box-shadow: 0 1px 0 #fff; }
+            .skillsblock .block-container .skillcontainer .wrapper .skillogo .logocontainer i {
+              text-shadow: 0 1px 0px #fff;
+              line-height: 132px;
+              display: inline-block; }
+        .skillsblock .block-container .skillcontainer .wrapper h4 {
+          text-align: center;
+          font-weight: 400;
+          color: #6e6e6e;
+          margin: 40px 0 1em 0;
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease; }
+        .skillsblock .block-container .skillcontainer .wrapper .description {
+          font-size: 1em;
+          color: #6e6e6e;
+          line-height: 1.5;
+          font-weight: 300;
+          text-align: center; }
+          .skillsblock .block-container .skillcontainer .wrapper .description p {
+            width: 100%; }
+
+/**
+     * main
+ */
+.appsblock {
+  background: url(../img/BackgroundReferenzen.jpg);
+  background-size: cover;
+  padding-bottom: 80px; }
+  .appsblock .appsblock-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0; }
+    .appsblock .appsblock-container h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 300;
+      margin: 20px 0; }
+    .appsblock .appsblock-container .apps {
+      display: inline-block;
+      width: 100%; }
+      .appsblock .appsblock-container .apps article {
+        position: relative;
+        z-index: 0;
+        min-height: 100px;
+        height: auto;
+        padding: 0 10px; }
+        .appsblock .appsblock-container .apps article .appstitle {
+          margin-bottom: 10px;
+          text-align: center; }
+          .appsblock .appsblock-container .apps article .appstitle div {
+            display: inline-block;
+            color: #999;
+            margin-right: 5px;
+            cursor: pointer;
+            padding: 0px 16px;
+            border: 1px solid #e5e5e5;
+            line-height: 38px;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            font-size: 12px;
+            font-weight: 700;
+            font-family: "Open Sans",sans-serif;
+            display: inline-block;
+            background: #fff;
+            margin-bottom: 5px; }
+          .appsblock .appsblock-container .apps article .appstitle div[class=selc] {
+            background-color: #fff;
+            border-color: #bbb;
+            color: #333;
+            box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.13); }
+        .appsblock .appsblock-container .apps article .appscontent {
+          width: 100%; }
+          .appsblock .appsblock-container .apps article .appscontent ul {
+            width: 100%;
+            max-width: 100%;
+            position: relative;
+            overflow: visible; }
+            .appsblock .appsblock-container .apps article .appscontent ul li {
+              background: url(../img/Abfallplaner.png) no-repeat 50% 0;
+              background-size: cover;
+              background-origin: content-box;
+              margin-left: 10px;
+              position: relative;
+              padding: 10px;
+              display: inline-block;
+              height: 216px;
+              box-sizing: border-box;
+              -webkit-transition: all 0.5s ease;
+              -moz-transition: all 0.5s ease;
+              -ms-transition: all 0.5s ease;
+              -o-transition: all 0.5s ease;
+              transition: all 0.5s ease; }
+              .appsblock .appsblock-container .apps article .appscontent ul li div {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background: rgba(0, 0, 0, 0.5); }
+                .appsblock .appsblock-container .apps article .appscontent ul li div a {
+                  display: block;
+                  position: absolute;
+                  top: 50%;
+                  left: 0;
+                  height: 16px;
+                  font-size: 16px;
+                  color: #000;
+                  width: 100%;
+                  text-align: center; }
+          .appsblock .appsblock-container .apps article .appscontent footer {
+            text-align: center;
+            width: 100%;
+            height: 38px;
+            padding: 5px; }
+            .appsblock .appsblock-container .apps article .appscontent footer a[class=current] {
+              border-color: #000;
+              color: #000; }
+            .appsblock .appsblock-container .apps article .appscontent footer a {
+              cursor: pointer;
+              display: inline-block;
+              border-radius: 5px;
+              padding: 0 16px;
+              line-height: 38px;
+              background-color: #fff;
+              border-color: #bbb;
+              color: #333;
+              border: 1px solid #e5e5e5;
+              margin: 0 5px 5px 0;
+              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.13); }
+          .appsblock .appsblock-container .apps article .appscontent ul.mainul {
+            display: block;
+            height: 352px; }
+
+/**
+ *intro
+ */
+.block-white-area {
+  padding-bottom: 80px; }
+  .block-white-area .block-white-part {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0; }
+    .block-white-area .block-white-part h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 300;
+      margin: 20px 0; }
+    .block-white-area .block-white-part .main-icon-intro {
+      margin: 40px 0;
+      width: 100%; }
+      .block-white-area .block-white-part .main-icon-intro a {
+        display: inline-block;
+        max-width: 160px;
+        padding: 10px 20px;
+        opacity: 0.5; }
+        .block-white-area .block-white-part .main-icon-intro a img {
+          max-height: 100px;
+          max-width: 150px; }
+
+.connect {
+  background: url(../img/Back.jpg);
+  background-size: cover;
+  position: relative;
+  height: 860px;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  .connect .connectleft {
+    opacity: 1;
+    right: 45%;
+    z-index: 9;
+    position: absolute;
+    color: #282828;
+    top: 0;
+    min-width: 300px;
+    margin-top: 80px;
+    padding: 40px 60px 20px 60px;
+    text-align: left;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.4s cubic-bezier(0.43, 0.6, 0.58, 1.62);
+    -moz-transition: all 0.4s cubic-bezier(0.43, 0.6, 0.58, 1.62);
+    -ms-transition: all 0.4s cubic-bezier(0.43, 0.6, 0.58, 1.62);
+    -o-transition: all 0.4s cubic-bezier(0.43, 0.6, 0.58, 1.62);
+    transition: all 0.4s cubic-bezier(0.43, 0.6, 0.58, 1.62); }
+    .connect .connectleft .wraper {
+      color: #282828;
+      text-align: left; }
+      .connect .connectleft .wraper h3 {
+        font-weight: 400;
+        margin: 10px 0;
+        text-align: center;
+        text-transform: uppercase; }
+      .connect .connectleft .wraper form {
+        width: 100%; }
+        .connect .connectleft .wraper form input {
+          font-family: 'Lato', Tahoma, sans-serif;
+          font-size: 16px;
+          padding: 8px 0;
+          border: 1px solid #c8c8c8;
+          line-height: 1.5;
+          width: 100%; }
+        .connect .connectleft .wraper form textarea {
+          border: 0;
+          outline: none;
+          width: 100%;
+          height: 200px;
+          border: 1px solid #c8c8c8;
+          overflow: hidden; }
+        .connect .connectleft .wraper form input[type=button] {
+          background-color: #15a6ed;
+          border-radius: 5px; }
+  .connect .connectright {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    right: 0;
+    top: 0;
+    max-width: 1200px;
+    text-align: center;
+    padding: 80px 0; }
+    .connect .connectright .wrapper {
+      position: relative;
+      padding: 60px 40px 0 100px;
+      max-width: 300px; }
+      .connect .connectright .wrapper h2 {
+        color: #fff;
+        font-weight: 400;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+        text-transform: uppercase;
+        text-align: center;
+        margin: 20px 0; }
+      .connect .connectright .wrapper .connect-info:hover {
+        background-color: #15a6ed;
+        border-color: #15a6ed; }
+      .connect .connectright .wrapper .connect-info {
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+        .connect .connectright .wrapper .connect-info .title {
+          font-size: 1.4em;
+          color: #fff;
+          margin: 1.8em 0 0.4em 0;
+          font-weight: 400;
+          text-transform: uppercase;
+          text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+        .connect .connectright .wrapper .connect-info a {
+          color: rgba(255, 255, 255, 0.7);
+          padding: 0.4em 0.8em;
+          border: 2px solid rgba(255, 255, 255, 0.2);
+          border-radius: 4px;
+          font-weight: 400;
+          -webkit-transition: all 0.4s ease;
+          -moz-transition: all 0.4s ease;
+          -ms-transition: all 0.4s ease;
+          -o-transition: all 0.4s ease;
+          transition: all 0.4s ease; }
+      .connect .connectright .wrapper .icon-font-wraper {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+        background-color: #00a99d;
+        cursor: pointer;
+        margin-top: 40px;
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        text-align: center;
+        padding: 20px;
+        border: 6px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+        .connect .connectright .wrapper .icon-font-wraper i {
+          font-size: 40px;
+          width: 45px;
+          height: 45px;
+          display: inline-block; }
+
+.foot {
+  background-color: #15a6ed;
+  font-size: 16px;
+  line-height: 50px;
+  height: 50px;
+  text-align: center; }
+  .foot a {
+    color: #fff; }
+
+/*# sourceMappingURL=index.css.map */

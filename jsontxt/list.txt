@@ -1,0 +1,39 @@
+{
+	all:{
+		android:[{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		},{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		},{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		},{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		},{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		},{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		},{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		},{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		}],
+		ios:[{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		}],
+		html:[{
+			con:"LiveDockMobile",
+			imgsrc:"img/Abfallplaner.png"
+		}]
+	
+	}
+
+}

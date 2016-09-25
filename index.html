@@ -3,12 +3,107 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 		<link rel="stylesheet" href="css/index.css" />
-		
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/listpage.js" ></script>
+		<style type="text/css">
+			@media only screen and (min-width: 100px) and (max-width: 640px) {
+				.appsblock .appsblock-container .apps article .appscontent ul li{
+					width:90%;
+				}
+				header .menu{
+					display: -webkit-box;
+					-webkit-box-flex: 1;
+					-moz-box-flex: 1;
+					width:50px;
+					margin: 0 auto;
+				}
+				header{
+					margin: 0;
+					padding:0;
+					overflow: hidden;
+					width:100%;
+					display: block;
+				}
+				header ul{
+					display: none;
+				}
+				header h1{
+					left:0;
+					top:0;
+					display: none;
+				}
+				.skillsblock .block-container .skillcontainer{
+					width:90%;
+				}
+				.connect{
+					padding-bottom: 860px;
+				}
+				.connect .connectright,.connect .connectleft{
+					width:90%;
+					left:0;
+				}
+				.connect .connectright{
+					height:860px;
+					margin:50px auto;
+				}
+				.connect .connectleft{
+					top:960px;
+					left:0;
+					right:0;
+					width:300px;
+					background: rgba(255, 255, 255, 1);
+					margin:0 auto;
+				}
+			}
+			@media only screen and (min-width: 640px) and (max-width: 1000px) {
+				.appsblock .appsblock-container .apps article .appscontent ul li{
+					width:30%;
+				}
+				.connectleft  .wraper:after{
+            content: "";
+            width: 0px;
+            height: 0px;
+            border: 20px solid #ffffff;
+            border-color: transparent transparent transparent rgba(255, 255, 255, 0.8);
+            position: absolute;
+            right: -40px;
+            top: 75%;
+        }
+			}
+		</style>
 	</head>
 	<body>
 		
 		<header>
+			<h1><img src="img/appcube.png"/></h1>
+			<ul class="navbar">
+				<li>
+					Referenzen
+				</li>
+				<li>
+					Referenzen
+				</li>
+				<li>
+					Referenzen
+				</li>
+				<li>
+					Referenzen
+				</li>
+				<li>
+					Referenzen
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
 		</header>
 		
 		<div class="banner">
@@ -28,7 +123,7 @@
 	                <div class="wrapper">
 	                   <div class="skillogo">
 	                       <div class="logocontainer">
-	                           <i class="icon-font"></i>
+	                           <i class="iconfont">&#xe601;</i>
 	                       </div>
 	                   </div>
 	                    <h4 class="title">
@@ -43,7 +138,7 @@
 	                <div class="wrapper">
 	                   <div class="skillogo">
 	                       <div class="logocontainer">
-	                           <i class="icon-font"></i>
+	                           <i class="iconfont">&#xe608;</i>
 	                       </div>
 	                   </div>
 	                    <h4 class="title">
@@ -58,7 +153,7 @@
 	                <div class="wrapper">
 	                   <div class="skillogo">
 	                       <div class="logocontainer">
-	                           <i class="icon-font"></i>
+	                           <i class="iconfont">&#xe73b;</i>
 	                       </div>
 	                   </div>
 	                    <h4 class="title">
@@ -79,22 +174,112 @@
 				</h2>
 				<div class="apps">
 					<article>
-						<h4></h4>
-						<div class="appscontent">
-							<ul>
-								<li></li>
+						<div class="appstitle" id="appKind">
+							<div class="selc" data-name = "all">
+								<span>Alle Projekte</span>
+							</div data-name = "all">
+							<div data-name = "android">
+								<span>Alle Projekte</span>
+							</div>
+							<div data-name = "ios">
+								<span>Alle Projekte</span>
+							</div>
+							<div data-name = "html">
+								<span>Alle Projekte</span>
+							</div>
+						</div>
+						<div class="appscontent" id="listApp">
+							<ul class="clear">
+								
+								<!--<li>
+									<div>
+										<a>测试</a>
+									</div>
+								</li>-->
 							</ul>
+							<footer>
+								<!--<a>1</a><a>2</a>-->
+							</footer>
 						</div>
 					</article>
 				</div>
 			</div>
 		</div>
 		
-		<div class="block-white-">
+		<div class="block-white-area">
+			<div class="block-white-part">
+				<h2>Ausgewählte Referenzen</h2>
+				<div class="main-icon-intro">
+					<a><img src="img/yello.png"/></a>
+					<a><img src="img/yello.png"/></a>
+					<a><img src="img/yello.png"/></a>
+					<a><img src="img/yello.png"/></a>
+					<a><img src="img/yello.png"/></a>
+					<a><img src="img/yello.png"/></a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="connect">
+			<div class="connectright">
+				<div class="wrapper">
+					<h2>Kontakt</h2>
+					<div class="connect-info">
+						<div class="title">
+							 E-Mail 
+						</div>
+						<a>contact@appcube.info</a>
+					</div>
+					<div class="connect-info">
+						<div class="title">
+							 E-Mail 
+						</div>
+						<a>contact@appcube.info</a>
+					</div>
+					<div class="connect-info">
+						<div class="title">
+							 E-Mail 
+						</div>
+						<a>contact@appcube.info</a>
+					</div>
+					
+					<div class="icon-font-wraper">
+						<i class="iconfont">&#xe64d;</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="connectleft">
+				<div class="wraper">
+					<h3>Kontaktieren Sie uns</h3>
+					<form action="">
+						<p>
+							Ihre E-Mail
+							<br />
+							<input type="email"  />
+						</p>
+						
+						<p>
+							Ihre E-Mail
+							<br />
+							<textarea>
+								
+							</textarea>
+						</p>
+						<p>
+							<br />
+							<input type="button" value="SEND" />
+						</p>
+						
+					</form>
+				</div>
+			</div>
 			
 		</div>
 		
-		
+		<div class="foot">
+			 <a>Appcube © 2016</a>
+		</div>
 		
 	</body>
 </html>
